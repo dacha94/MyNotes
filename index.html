@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/normalize copy 6.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>notes for yourself</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form class="container notes__form" id="notes__form">
+            <div class="card">
+                <div class="card__main">
+                    <div>
+                        <input type="text" id="noteName" placeholder="название заметки" maxlength="300" required>
+                    </div>
+                    <div>
+                        <textarea id="noteText" placeholder="заметки" required>заметка</textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Добавить">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="container notes" id="notes">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
